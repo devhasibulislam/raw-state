@@ -1,5 +1,5 @@
 import React, { useReducer } from "react";
-import { initializer, reducer } from "../../states/formReducers";
+import { initializer, reducer } from "../../states/form/formReducers";
 
 const Form = () => {
   const [state, dispatch] = useReducer(reducer, initializer);
